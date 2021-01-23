@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Country;
+use App\Models\Company;
 
-class CountryController extends Controller
+class CompanyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +14,8 @@ class CountryController extends Controller
      */
     public function index()
     {
-        // 'SELECT * FROM countries ... LIMIT 0, 10'
-        //$countries = Country::where('name', '=', 'Hr');
-        $countries = Country::paginate();
-        dd($countries);
-
+        $companies = Company::paginate();
+        dd($companies);
     }
 
     /**
@@ -50,9 +47,8 @@ class CountryController extends Controller
      */
     public function show($id)
     {
-        //$country = Country::where('id', '=', $id)->first();
-        $country = Country::findOrFail($id);
-        dd($country);
+        $company = Company::findOrFail($id);
+        dd($company);
     }
 
     /**

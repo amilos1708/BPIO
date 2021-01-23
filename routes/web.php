@@ -3,6 +3,13 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CountryController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\SexController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\VehicleController;
+use App\Http\Controllers\PurposeController;
+use App\Http\Controllers\VehicleMovementController;
+use App\Http\Controllers\VehicleRegistrationController;
 
 
 /*
@@ -26,6 +33,17 @@ Route::get('/', function () {
     //Route::put('countries', 'CountryController@index');
 
 //skraceno
-Route::resource('countries', CountryController::class);
-Route::resource('roles', RoleController::class);
+Route::resource('countries', 'CountryController');
+Route::resource('roles', 'RoleController');
+Route::resource('companies', 'CompanyController');
+Route::resource('sexes', 'SexController');
+Route::resource('users', 'UserController');
+Route::resource('vehicles', 'VehicleController');
+Route::resource('vehicle_movements', 'VehicleMovementController');
+Route::resource('vehicle_registrations', 'VehicleRegistrationController');
+Route::resource('purposes', 'PurposeController');
+
+
+
+//Route::resource('roles', RoleController::class);
 

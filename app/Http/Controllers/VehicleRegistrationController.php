@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Vehicle_registration;
 
-class CountryController extends Controller
+class VehicleRegistrationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,8 @@ class CountryController extends Controller
      */
     public function index()
     {
-        echo 'hello world';
-        die;
+        $vehicle_registrations = Vehicle_registration::paginate();
+        dd($vehicle_registrations);
     }
 
     /**
@@ -46,8 +47,8 @@ class CountryController extends Controller
      */
     public function show($id)
     {
-        echo $id;
-        die;
+        $vehicle_registration = Vehicle_registration::findOrFail($id);
+        dd($vehicle_registration);
     }
 
     /**

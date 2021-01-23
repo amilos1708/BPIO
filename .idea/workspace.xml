@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d2ec8de-d423-4a5b-b211-764a8a895798" name="Default Changelist" comment="" />
+    <list default="true" id="4d2ec8de-d423-4a5b-b211-764a8a895798" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BPIOproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BPIOproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/1CountryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CountryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CountryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Purpose.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Purpose.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Sex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Sex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Vehicle_movement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vehicle_movement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Vehicle_registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Vehicle_registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +32,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -52,7 +77,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
@@ -89,7 +113,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
-      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
@@ -114,6 +137,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kTjS1552gCnYDA1aY9osq03Rnd" />
@@ -132,6 +162,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -152,29 +183,15 @@
       <workItem from="1606150797373" duration="606000" />
       <workItem from="1606589620096" duration="6182000" />
       <workItem from="1608238413360" duration="602000" />
-      <workItem from="1609695907122" duration="13763000" />
+      <workItem from="1609695907122" duration="20624000" />
+      <workItem from="1609786709282" duration="7235000" />
+      <workItem from="1609856025355" duration="5484000" />
+      <workItem from="1610383766940" duration="3328000" />
+      <workItem from="1611357027097" duration="4195000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1609696654192">
-      <screen x="1920" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1600.860@1920.0.1600.860" timestamp="1609696654192" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1609696654191">
-      <screen x="1920" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1600.860@1920.0.1600.860" timestamp="1609696654191" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1609696654191">
-      <screen x="1920" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1600.860@1920.0.1600.860" timestamp="1609696654191" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1609696654192">
-      <screen x="1920" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1600.860@1920.0.1600.860" timestamp="1609696654192" />
   </component>
 </project>
