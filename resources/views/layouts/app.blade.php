@@ -24,31 +24,31 @@
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/users">Users</a>
+                    <a class="nav-link" href="{{ route('users.index') }}">Users</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/roles">Roles</a>
+                    <a class="nav-link" href="{{ route('roles.index') }}">Roles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/vehicles">Vehicles</a>
+                    <a class="nav-link" href="{{ route('vehicles.index') }}">Vehicles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/companies">Companies</a>
+                    <a class="nav-link" href="{{ route('companies.index') }}">Companies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/countries">Countries</a>
+                    <a class="nav-item nav-link" href="{{ route('countries.index') }}">Countries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sexes">Sexes</a>
+                    <a class="nav-link" href="{{ route('sexes.index') }}">Sexes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/vehicle_movements">Vehicle movements</a>
+                    <a class="nav-link" href="{{ route('vehicle_movements.index') }}">Vehicle movements</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/vehicle_registrations">Vehicle registrations</a>
+                    <a class="nav-link" href="{{ route('vehicle_registrations.index') }}">Vehicle registrations</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/purposes">Purposes</a>
+                    <a class="nav-link" href="{{ route('purposes.index') }}">Purposes</a>
             </ul>
         </div>
     </div>

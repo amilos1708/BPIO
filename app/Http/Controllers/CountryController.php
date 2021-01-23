@@ -51,8 +51,9 @@ class CountryController extends Controller
     public function show($id)
     {
         //$countries = Country::where('id', '=', $id)->first();
+        //SELECT * FROM countries WHERE id = ?
         $country = Country::findOrFail($id);
-        dd($country);
+        return view('countries.show', compact('country'));
     }
 
     /**

@@ -13,6 +13,7 @@
             <th scope="col">Beginning km</th>
             <th scope="col">Fuel status</th>
             <th scope="col">Note</th>
+            <th class="text-center" scope="col">Actions</th>
         </tr>
         </thead>
         <tbody>
@@ -24,6 +25,10 @@
                 <td>{{$vehicle_movement->beginning_km }}</td>
                 <td>{{$vehicle_movement->fuel_status }}</td>
                 <td>{{$vehicle_movement->note }}</td>
+                <td class="text-center">
+                    <a href="{{ route('vehicle_movements.show', ['vehicle_movement' => $vehicle_movement->id]) }}" class="btn btn-outline-secondary btn-sm">Details</a>
+                    <a href="{{ route('vehicle_movements.edit', ['vehicle_movement' => $vehicle_movement->id]) }}" class="btn btn-outline-primary btn-sm">Edit</a>
+                </td>
             </tr>
         @endforeach
         </tbody>
